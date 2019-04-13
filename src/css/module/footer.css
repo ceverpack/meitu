@@ -1,0 +1,149 @@
+*{margin: 0;padding: 0;}
+ul li{list-style: none;}
+a{
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+}
+div{
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-weight: 400;
+}
+h3{
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+}
+.icon{
+    background-image: url(https://img.app.meitudata.com//meitumall/v2/images/dff63979.sprites-index@2x.png)!important;
+    background-size: 400px 400px!important;
+    background-repeat: no-repeat!important;
+}
+.footer-container{
+    background-color: #f4f4f4;
+    font-size: 12px;
+    padding-top: 40px;
+}
+.global-directory .column-item {
+    margin-bottom: 16px;
+}
+.global-directory .column-list {
+    margin-top: 16px;
+}
+.global-contact .contact-title {
+    font-size: 12px;
+}
+.global-contact .contact-tel {
+    color: #333;
+    font-size: 26px;
+    font-weight: 300;
+    margin: 24px 0;
+}
+.global-footer-light .global-directory .column-title {
+    color: #333;
+}
+.global-directory-outer{
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.global-directory{
+    position: relative;
+    padding-right: 250px;
+}
+.global-directory .directory-column{
+    float: left;
+    width: 20%;
+}
+.global-footer-light a:hover{
+    opacity: 1!important;
+    text-decoration: underline;
+    color: #e62878!important;
+}
+.global-contact{
+    position: absolute;
+    right: 0;
+}
+.global-footer-light .global-law{
+    color: #333;
+    margin-top: 15px;
+    border-top-color: #dedede;
+}
+.global-law{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0 22px;
+    border-top: 1px solid hsla(0,0%,90%,.12);
+    font-size: 12px;
+    position: relative;
+}
+.global-law .legal-copyright{
+    display: inline-block;
+    width: 106px;
+    height: 12px;
+    margin-top: -1px;
+    background-image: url(https://img.app.meitudata.com//meitumall/v2/images/dff63979.sprites-index@2x.png);
+    background-repeat: no-repeat;
+    background-position: 0 -241px;
+    background-size: 400px auto;
+    vertical-align: top;
+}
+.global-law .legal-item{
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+.global-police{
+    color: #999;
+    margin-top: 4px;
+}
+.global-police a{
+    color: #999;
+}
+.global-police-license{
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.global-police-business{
+    height: 22px;
+    width: 46px;
+    background-image: url(https://img.app.meitudata.com//meitumall/v2/images/dff63979.sprites-index@2x.png);
+    background-position: -308px -188px;
+    margin-left: 10px;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-size: 400px auto;
+}
+.global-police-culture{
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-size: 400px auto;
+    background-image: url(https://img.app.meitudata.com//meitumall/v2/images/dff63979.sprites-index@2x.png);
+    background-position: -378px -188px;
+}
+.global-police-serve{display: block;}
+.global-language{
+    color: #999;
+    position: absolute;
+    top: 27px;
+    right: 0;
+    padding-left: 24px;
+    height: 18px;
+    line-height: 18px;
+}
+.global-country{
+    height: 18px;
+    width: 16px;
+    position: absolute;
+    display: block;
+    left: 0;
+    background-position: -300px -5px;
+}

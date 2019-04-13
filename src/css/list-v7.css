@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.phones-nav {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #1f1f26;
+}
+.phones-wrapper {
+    position: relative;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.phone-list {
+    padding-bottom: 24px;
+    font-size: 0;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.phone-list .phone-item {
+    display: inline-block;
+    padding: 20px 24px 0;
+    font-family: PingFangSC-light;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1;
+    color: #fff;
+    vertical-align: top;
+}
+.phone-list .phone-item:hover{
+    text-decoration: none;
+}
+.phone-icon {
+    display: block;
+    width: 30px;
+    height: 36px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: auto 36px;
+}
+
+.phone-name {
+    margin: 0;
+    margin-top: 8px;
+}
+.phone-new {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 11px;
+    color: #e62878;
+}
+.phones-sections {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    /* background-color: #f7f7f7; */
+}
+.phone-banner {
+    height: 500px;
+    background-position: 55% 100%;
+    position: relative;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.phone-banner .banner-wrapper {
+    display: block;
+    max-width: 1000px;
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+}
+.phone-banner .banner-cont {
+    position: absolute;
+    top: 168px;
+    right: 92px;
+    z-index: 1;
+    width: 366px;
+    text-align: center;
+}
+.phone-banner .banner-tit-slogan {
+    margin: 0;
+    padding: 0;
+    /* background-image: url(//mtshop1.meitudata.com/5c208b861123e86852.png); */
+    height: 113px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: auto 100%;
+}
+.phone-banner .banner-link {
+    display: inline-block;
+    margin-right: 12px;
+    border-bottom: 1px solid transparent;
+    margin-top: 54px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1;
+    color: #000000;
+}
+.mt-icon-arrow-left{
+    font-size: 22px;
+}

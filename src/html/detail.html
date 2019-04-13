@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../lib/require.js" data-main="../js/detail.js"></script>
+    <link rel="stylesheet" href="../css/detail.css">
+</head>
+
+<body>
+    <!-- 头部复用 -->
+    <div class="head" id="header-container">
+
+    </div>
+
+    <div class="body">
+        <div id="add-car-succse">
+            添加购物车成功
+        </div>
+        <nav class="global-sub-nav">
+            <div class="global-sub-nav-inner">
+                <h5 class="global-sub-nav-title">美图V7 托尼洛·兰博基尼限量版</h5>
+                <div class="global-sub-menus">
+                    <a class="global-sub-menu-item" href="">概览</a>
+                    <a class="global-sub-menu-item" href="">规格参数</a>
+                    <a class="global-sub-menu-item" href="">高清图集</a>
+                </div>
+            </div>
+        </nav>
+        <div class="choose-content" id="d-box">
+            <!-- 渲染数据 -->
+            <script type="text/html" id="detail">
+                <div class="choose-main clearfix">
+                <div class="choose-gallery">
+                    <!-- 轮播图 -->
+                    <div class="d-left">
+                        <div class="view_bd">
+                            <img class="zoom-img" src="{{data.images.s1}}"
+                                data-zoom-image="{{data.images.s1}}" />
+                        </div>
+                        <div class="view_thumbs" id="gal1">
+                            <ul class="view-ul">
+                                <li class="current">
+                                    <a href="#" data-image="{{data.images.s1}}"
+                                        data-zoom-image="{{data.images.s1}}">
+                                        <img class="s" src="{{data.images.s1}}" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" data-image="{{data.images.s2}}"
+                                        data-zoom-image="{{data.images.s2}}">
+                                        <img class="s" src="{{data.images.s2}}" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" data-image="{{data.images.s3}}"
+                                        data-zoom-image="{{data.images.s3}}">
+                                        <img class="s" src="{{data.images.s3}}" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" data-image="{{data.images.s4}}"
+                                        data-zoom-image="{{data.images.s4}}">
+                                        <img class="s" src="{{data.images.s4}}" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="choose-propertys">
+                    <div class="discount">
+                        <div class="discount-info discount-info--border">
+                            <h5 class="discount-title">{{data.title}}</h5>
+                            <p class="discount-desc">{{data.desc}}</p>
+                        </div>
+                    </div>
+                    <div class="product-coupon-container product-coupon-gift">
+                        <span class="product-coupon-label">优惠券</span>
+                        <span class="product-coupon-text">兰博基尼专用券</span>
+                        <span class="product-coupon-btn">领取</span>
+                    </div>
+                    <a href="javascript:;" class="choose-gift choose-gift-none">
+                        <i>白色情人节</i>
+                        购T9限量版、V7赠皮肤检测仪+移动电源
+                    </a>
+                    <div class="choose-propertys__wrap-content">
+                        <div class="property-option" id="property-phone">
+                            <div class="property-option-title">
+                                规格
+                                <div class="property-option-value">
+                                    256G
+                                </div>
+                                <a href="javascript:;" class="property-option-change">修改</a>
+                            </div>
+                            <div
+                                class="property-option-list mt-row clearfix property-detail-over mt-row-strict property-option-list-1">
+                                <div class="property-option-item mt-col-6">
+                                    <button class="property-option-btn property-option-phone">
+                                        <span class="property-option-name">256G</span>
+                                    </button>
+                                </div>
+                                <div class="property-option-item mt-col-6">
+                                    <button
+                                        class="property-option-btn property-option-phone property-option-btn-selected">
+                                        <span class="property-option-name">512G</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="property-option" id="property-option">
+                            <div class="property-option-title">
+                                颜色
+                                <div class="property-option-value">
+
+                                </div>
+                                <a href="javascript:;" class="property-option-change">修改</a>
+                            </div>
+                            <div
+                                class="property-option-list mt-row clearfix property-detail-over mt-row-strict property-option-list-1">
+                                <div class="property-option-item mt-col-6">
+                                    <button class="property-option-btn property-option-btn-disable">
+                                        <span class="property-option-name property-option-has-icon">托尼洛·兰博基尼限量版</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="property">
+                            <div class="property-title">附加服务</div>
+                            <div class="property-detail mt-row clearfix property-detail-over mt-row-strict">
+                                <div class="property-service-box mt-col-6">
+                                    <div class="property-service border-radius">
+                                        <span class="property-service-name">碎屏保一年</span>
+                                        <span class="property-service-price">¥ 199</span>
+                                    </div>
+                                    <div class="property-service-addon">
+                                        <span property-service-icon mt-icon2 mt-icon2-question>!</span>
+                                        碎屏保一年说明
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="choose-number clearfix">
+                            <div class="choose-number-label">购买数量</div>
+                            <div class="choose-number-value">
+                                <div data-v-1a82b236 class="mt-number" id="c-num">
+                                    <button data-v-1a82b236 class="mt-btn-dec">-</button>
+                                    <div data-v-1a82b236 class="mt-number-value">1</div>
+                                    <button data-v-1a82b236 class="mt-btn-add">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="choose-buy">
+                        <div class="choose-price clearfix">
+                            <div class="choose-price-value">
+                                ￥<span id="total">4799.00</span>
+                            </div>
+                        </div>
+                        <div class="choose-buttons">
+                            <div class="choose-button-line">
+                                <button class="mt-button choose-btn mt-button--primary mt-button--large is-disabled">
+                                    <span>立即购买</span>
+                                </button>
+                            </div>
+                            <div class="choose-button-line">
+                                <button class="mt-button btn-addcart mt-button--label">
+                                    <span id="buy_btn">添加到购物袋</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </script>
+            
+        </div>
+    </div>
+
+
+    <!-- 尾部复用 -->
+    <div class="footer" id="footer-container">
+
+    </div>
+</body>
+
+</html>

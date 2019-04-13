@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>美图手机-美图官网</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../lib/require.js" data-main="../js/list-v7.js"></script>
+    <script src="../lib/jquery/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="../css/list-v7.css">
+</head>
+
+<body>
+    <!-- 头部复用 -->
+    <div class="head" id="header-container">
+
+    </div>
+
+    <!-- 导航 -->
+    <div class="phones-nav">
+        <div class="phones-wrapper">
+            <div class="phone-list">
+                <a class="phone-item js-phone-item" href="">
+                    <i class="phone-icon"
+                        style="background-image:url(//mtshop1.meitudata.com/5c21a8f9ec2a138294.png)"></i>
+                    <p class="phone-name">美图V7</p>
+                    <span class="phone-new">new</span>
+                </a>
+                <a class="phone-item js-phone-item" href="">
+                    <i class="phone-icon"
+                        style="background-image:url(//mtshop1.meitudata.com/5b0539248d34555111.png)"></i>
+                    <p class="phone-name">美图T9</p>
+                    <span class="phone-new"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 主列表 -->
+    <section class="phones-sections">
+        <script type="text/html" id="list-v7">
+            {{ each data item }}
+            <div class="phone-banner" style="background-image: url({{ item.img }})">
+                <div class="banner-wrapper">
+                    <div class="banner-cont position-centerM">
+                        <h2 class="banner-tit-slogan" style="background-image: url({{ item.h2 }})"></h2>
+                        <a class="banner-link" href="/html/detail.html?id={{item.id}}">{{ item.title }}</a>
+                        <span class="mt-icon-arrow-left">></span>
+                    </div>
+                </div>
+            </div>
+            {{ /each }}
+        </script>
+    </section>
+
+
+    <!-- 尾部复用 -->
+    <div class="footer" id="footer-container">
+
+    </div>
+
+</body>
+
+</html>

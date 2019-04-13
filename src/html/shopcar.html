@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>购物车</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../lib/require.js" data-main="../js/shopcar.js"></script>
+    <link rel="stylesheet" href="../css/shopcar.css">
+</head>
+
+<body>
+    <!-- 头部复用 -->
+    <div class="head" id="header-container">
+
+    </div>
+    <!-- 确定删除模态框 -->
+    <div class="m-b-box">
+        <div class="m-c-box">
+            <p class="p1">删除商品？</p>
+            <p class="p2">点击删除将从购物车中移除商品。</p>
+            <div class="mt-alert-footer clearfix">
+                <button class="mt-button mt-button--cancel">确认</button>
+                <button class="mt-button mt-button--default">取消</button>
+            </div>
+        </div>
+    </div>
+    <!-- 主体部分 -->
+    <div class="body">
+        <!-- 导航 -->
+        <nav data-v-608bb276 class="global-sub-nav global-sub-nav-light global-sub-nav-line no-fixed">
+            <div data-v-608bb276 class="global-sub-nav-inner">
+                <h5 data-v-608bb276 class="global-sub-nav-title">购物袋内的商品</h5>
+            </div>
+        </nav>
+        <div class="none-data">
+            <!-- 添加上限提示 -->
+            <div id="max-num">添加购物车已达上限</div>
+
+            <div class="none-data-description">
+                购物袋内没有商品，快去添加商品吧！
+            </div>
+            <div class="cart-content">
+                <div class="cart-list" id="car-body">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="cart-questions">
+            <div class="question-box">
+                <div class="question-header bottom-line-lighter">常见问题解答</div>
+                <div class="question-list clearfix mt-row">
+                    <li class="question-item mt-col-4 bottom-line-lighter">
+                        <div class="question-title">何时能够收到商品？</div>
+                        <div id="question-content-1" class="question-content">
+                            登录美图官网后，登陆您的美图帐号，移动到右上角的进入【我的订单】，即可以查看订单状态；若您的订单状态为【等待收货】，点击【订单详情】-【查看跟踪信息】，即可看到最新的物流状态（仅支持手机订单查询，配件类产品除外）。
+                            注：手机发货到顺丰物流时，顺丰速运以短信通知发送到您签收的手机号码上，具体的派送时间以物流派送时效为准。
+                        </div>
+                    </li>
+                    <li class="question-item mt-col-4 bottom-line-lighter">
+                        <div class="question-title">可以把手机和配件一起放购物袋内下单吗？</div>
+                        <div id="question-content-2" class="question-content">
+                            抱歉，手机是需要参与抢购的，而配件可以直接下单购买，两者的订单是分别的，所以不支持一起放置购物车内下单。</div>
+                    </li>
+                    <li class="question-item mt-col-4 bottom-line-lighter">
+                        <div class="question-title">可以把手机先放购物车内，等抢购的时候再下单吗？</div>
+                        <div id="question-content-1" class="question-content">
+                            您可以先将手机放置购物车内，但抢购开始时，仍然需要参与当期活动的抢购。以您抢到的订单为准。
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </div>
+        <script>
+
+        </script>
+    </div>
+
+    <!-- 尾部复用 -->
+    <div class="footer" id="footer-container">
+
+    </div>
+</body>
+
+</html>

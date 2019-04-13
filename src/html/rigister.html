@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>美图注册页面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 和登录差不多，直接用登录页面的css和js -->
+    <script src="/lib/require.js" data-main="/js/rigister.js"></script>
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+
+<body>
+    <!-- 头部复用 -->
+    <div class="head" id="header-container">
+
+    </div>
+    <!-- 主体部分 -->
+    <div id="login-page">
+        <!-- 头部logo -->
+        <div class="Page bind-phone-page no-sent login-via-sms bind-phone">
+            <header class="header-logo hr">
+                <span class="Icon account-logo hr"></span>
+            </header>
+            <!-- 登录框 -->
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="username" class="col-sm-2 control-label">账号</label>
+                    <div class="col-sm-10">
+                        <input type="text" placeholder="请输入3-10位中文名" class="form-control" id="username">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Password" class="col-sm-2 control-label">密码</label>
+                    <div class="col-sm-10">
+                        <input type="password" placeholder="请输入6位以上只包含数字和字母的密码" class="form-control" id="Password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button class="btn btn-default btn-login">注册</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- 尾部复用 -->
+    <div class="footer" id="footer-container">
+
+    </div>
+</body>
+
+</html>
